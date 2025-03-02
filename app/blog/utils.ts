@@ -53,6 +53,12 @@ export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
 }
 
+export function getBlogPostsFromJSON() {
+  const filePath = path.join(process.cwd(), 'app', 'blog', 'posts.json')
+  const fileContent = fs.readFileSync(filePath, 'utf-8')
+  return JSON.parse(fileContent)
+}
+
 export function formatDate(date: string, includeRelative = false) {
   let currentDate = new Date()
   if (!date.includes('T')) {
