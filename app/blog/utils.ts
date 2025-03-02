@@ -49,10 +49,6 @@ function getMDXData(dir) {
   })
 }
 
-export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
-}
-
 export function getBlogPostsFromJSON() {
   const filePath = path.join(process.cwd(), 'app', 'blog', 'posts.json')
   const fileContent = fs.readFileSync(filePath, 'utf-8')

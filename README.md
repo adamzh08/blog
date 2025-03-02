@@ -21,25 +21,25 @@ https://portfolio-blog-starter.vercel.app
 ├─ README.md
 ├─ app
 │  ├─ blog
-│  │  ├─ [slug]
-│  │  │  └─ page.tsx
+│  │  ├─ [slug]         # Dynamic blog post route
+│  │  │  └─ page.tsx  
 │  │  ├─ page.tsx
 │  │  ├─ posts.json
 │  │  └─ utils.ts
 │  ├─ components
 │  │  ├─ footer.tsx
-│  │  ├─ mdx.tsx
+│  │  ├─ mdx.tsx        # MDX components
 │  │  ├─ nav.tsx
 │  │  └─ posts.tsx
 │  ├─ global.css
-│  ├─ layout.tsx
+│  ├─ layout.tsx        # Root layout
 │  ├─ not-found.tsx
 │  ├─ og
 │  │  └─ route.tsx
-│  ├─ page.tsx
+│  ├─ page.tsx          # Homepage
 │  ├─ robots.ts
 │  ├─ rss
-│  │  └─ route.ts
+│  │  └─ route.ts       # RSS feed generator
 │  └─ sitemap.ts
 ├─ package-lock.json
 ├─ package.json
