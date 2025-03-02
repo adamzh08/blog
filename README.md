@@ -15,6 +15,39 @@ This is a porfolio site template complete with a blog. Includes:
 
 https://portfolio-blog-starter.vercel.app
 
+```
+📦 Blog
+.gitignore
+├─ README.md
+├─ app
+│  ├─ blog
+│  │  ├─ [slug]
+│  │  │  └─ page.tsx
+│  │  ├─ page.tsx
+│  │  ├─ posts.json
+│  │  └─ utils.ts
+│  ├─ components
+│  │  ├─ footer.tsx
+│  │  ├─ mdx.tsx
+│  │  ├─ nav.tsx
+│  │  └─ posts.tsx
+│  ├─ global.css
+│  ├─ layout.tsx
+│  ├─ not-found.tsx
+│  ├─ og
+│  │  └─ route.tsx
+│  ├─ page.tsx
+│  ├─ robots.ts
+│  ├─ rss
+│  │  └─ route.ts
+│  └─ sitemap.ts
+├─ package-lock.json
+├─ package.json
+├─ pnpm-lock.yaml
+├─ postcss.config.js
+└─ tsconfig.json
+```
+
 ## How to Use
 
 You can choose from one of the following two methods to use this repository:
